@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    transition: transform 300ms ease-in-out;
+    text-decoration: none;
+}
+.contact{
+    position: relative;
+    width: 100%;
+    padding-bottom : 40px;
+    align-items: center;
+}
+.contact .content{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    /* background-color: #98e8f3 !important; */
+}
+.contact .content h2{
+    font-size:36px;
+    font-weight: 500;
+    color:rgb(0, 28, 85);
+}
+.contactform{
+    width:50%;
+    min-width: 200px;
+    display: table; margin: 0 auto;
+    padding:50px;
+    background-color:#fff;
+    box-shadow: 0 15px 20px 15px rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+.contactform h2{
+    font-size:30px;
+    color:rgb(0, 28, 85);
+    font-weight: 500;
+    width: 50%;
+}
+.contactform .inputbox{
+    position: relative;
+    width:100%;
+    margin-top: 10px;
+    background:transparent;
+    color: rgb(0, 28, 85);
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+    width:100%;
+    padding:5px 0;
+    font-size:16px;
+    margin:10px 0;
+    border:none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(0, 28, 85);
+    outline:none;
+    resize:none;
+}
+.contactform .inputbox span{
+    position: absolute;
+    left:0;
+    padding:5px 0;
+    font-size:16px;
+    margin:10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color:rgb(0, 28, 85);
+}
+.contactform .inputbox input:focus~span,
+.contactform .inputbox input:valid~span,
+.contactform .inputbox textarea:focus~span,
+.contactform .inputbox textarea:valid~span{
+    color:#e91e63;
+    font-size:12px;
+    transform:translateY(-20px);
+}
+.contactform .inputbox input[type="submit"]
+{
+    width:100px;
+    background:rgb(0, 28, 85);
+    color:white;
+    border:none;
+    padding:10px;
+    font-size:18px;
+    text-align: center;
+    margin-left: 0%;
+    float: left;
+
+}
+.contactform .inputbox input[type="submit"]:hover{
+    background-color: rgb(221, 242, 252);
+    /* color: rgb(0, 28, 85); */
+}
+.form-mail{
+    width: 100%;
+    background-color: rgb(221, 242, 252);
+    color: rgb(221, 242, 252);
+    padding-bottom: 80px;
+}
+.submit .btn{
+    background-color: rgb(0, 28, 85);
+    color: #fff;
+}
+.submit .btn:hover{
+    background-color: rgb(221, 242, 252);
+    color: rgb(0, 28, 85);
+}

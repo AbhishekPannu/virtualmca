@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    transition: transform 300ms ease-in-out;
+    text-decoration: none;
+}
+.abhi-cards{
+    width: 100% !important;
+    height: auto !important;
+    margin: 15px 10px 20px 60px !important;
+}
+.abhi-cards a:hover{
+    transform: translateY(-10px);
+}
+.semester-block{
+background-color: rgb(221, 242, 252);
+color: rgb(0, 28, 85);
+}
+.middle-semester-block{
+    background-color:rgb(221, 242, 252);
+    color: rgb(0, 28, 85);
+    text-align: center;
+     padding: 2rem 0px 1px 0px;
+     width: 100%;
+     margin: 0%;
+}
+.middle-heading{
+    text-decoration: none;
+    color: rgb(0, 28, 85);
+}
+.middle-heading:hover{
+    display: inline-block;
+    transform: scale(1.05);
+    text-decoration: none;
+    color: rgb(0, 28, 85);
+}
+.abhi-cards a{
+    text-decoration: none !important;
+}
+.card-title{
+    text-align: center;
+    text-decoration: none !important;
+    color: rgb(0, 28, 85);
+    padding: 20px 0 10px 0;
+}
+.card-text{
+    text-align: center;
+    text-decoration: none !important;
+    color: rgb(0, 28, 85);
+}
+.card-title:hover{
+    text-decoration: none !important;
+}
+.card-text:hover{
+    text-decoration: none !important;
+}

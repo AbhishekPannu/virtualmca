@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    transition: transform 300ms ease-in-out;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    font-size: 100%;
+}
+a:hover{
+    transform: scale(1.02);
+    transition: transform 330ms ease-in-out;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color:white;
+}
+li{
+    margin : 0;
+    padding: 16px;
+}
+ul{
+    list-style-type: none;
+}
+.big-icon{
+    float: right;
+    font-size: 1.96rem;
+    opacity: 0.3;
+    color: rgb(221, 242, 252);
+}
+.btn{
+    text-align: center;
+    margin: 7% 0 0 30%;
+    background-color: black;
+    /* color: black; */
+}
+.btn:hover{
+    text-decoration: none;
+    background-color: transparent !important;
+    /* color: white; */
+}
+.courses{
+    padding: 10%;
+}
+.developer{
+    background-color: #055052;
+}
+.dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+    border-radius: 100px;
+    text-decoration: none;
+  }
+.dropdown a{
+    text-decoration: none;
+}
+.dropdown a:hover{
+    color: white;
+    text-decoration: none;
+}
+.dropdown:hover{
+    transform: scale(1.1); 
+     transition: transform 130ms ease-in-out;
+}
+  .dropbtn:hover{
+     transform: scale(1.1); 
+     transition: transform 130ms ease-in-out;
+  } 
+ 
+.fas:hover{
+    color: black !important;
+}
+.first-course{
+    margin: 2%;
+}
+.footer{
+    background-color: rgb(221, 242, 252);
+    width: 100%;
+    text-align: center;
+}
+.footer h3{
+    margin:0;
+}
+.footer h3{
+    display: inline-block;
+}
+.footer .heart {
+    color: red;
+}
+.footer .heart-big:hover{
+    transform: scale(1.8);
+    transition: transform  330ms ease-in-out;
+    transition: 0.5s;
+}
+.home-page{
+    margin: 0;
+    padding: 0;
+    color: #fff ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url("../images/library.jpg");
+    background-size: cover;
+    background-attachment:fixed;
+    width: 100%;
+    height: 100vh;
+}
+.home-page-mid{
+    margin: 0;
+    padding: 0;
+    color: black ;
+}
+.info{
+    font-size: 1.73em;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-right: 25px;
+}
+.info:hover{
+    transform: scale(1.05);
+}
+.main-heading{
+    text-align: center;
+    margin:12% 25% 0 25%;
+}
+.main-heading:hover{
+    transform: scale(1.01);
+}
+.navigation-bar{
+    margin : 0 5%;
+    position: fixed;
+
+}
+.navbar{
+    background-color: #0003;
+
+}
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+.presentation{
+    text-decoration: none;
+    /* background-color: white; */
+    color: black;
+}
+.presentation:hover{
+    text-decoration: none;
+    /* background-color: black; */
+    color: white !important; 
+}
+.second-course{
+    margin: 2%;
+}
+.row{
+    margin: 0;
+    padding: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.semester-block{
+    width: 100%;
+    background-color: #9dd2f1;
+}
+.scroll{
+    text-decoration: none;
+    padding-top: 230px;
+    max-width: 100px;
+}
+.scroll ul{
+    padding: 0;
+}
+.scroll li{
+    padding:12px;
+    padding-left: 16px;
+}
+.scroll a{
+    font-size: 2rem;
+    color: white;
+    display: inline-block;
+}
+.text{
+    text-align: center;
+    color: #fff;
+    margin-right: 33px;
+    /* margin-bottom: 6px; */
+}
+.text:hover{
+    transform: scale(1.03);
+}
+.title-icon{
+    padding: 0% 5%;
+    color: rgb(221, 242, 252);
+}
+.web-title{
+    padding-left: 20px;
+    margin: 0%;
+    /* transition: transform 200ms ease-in-out; */
+}
+.web-title:hover{
+    transform: scale(1.03); 
+}
