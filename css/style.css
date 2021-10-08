@@ -19,7 +19,7 @@ a:hover{
 }
 body{
     margin: 0;
-    padding: 0;
+    padding: 0;    
 }
 h2{
     color:white;
@@ -90,6 +90,9 @@ ul{
 .first-course{
     margin: 2%;
 }
+.shadow-navigation{
+    box-shadow: 0 5px 10px 5px rgba(0,0,0,0.2);
+}
 .footer{
     background-color: rgb(221, 242, 252);
     width: 100%;
@@ -113,7 +116,7 @@ ul{
     margin: 0;
     padding: 0;
     color: #fff ;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url("../images/library.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url("../images/library_even_smaller.jpg");
     background-size: cover;
     background-attachment:fixed;
     width: 100%;
@@ -193,6 +196,34 @@ ul{
     color: white;
     display: inline-block;
 }
+.slide-up{
+    animation: LoadingUpAnimation 0.8s ease-in;
+}
+@keyframes LoadingUpAnimation {
+    0%{
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+.slide-down{
+    animation: LoadingDownAnimation 0.6s ease-in;
+}
+@keyframes LoadingDownAnimation {
+    0%{
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
 .text{
     text-align: center;
     color: #fff;
@@ -206,6 +237,30 @@ ul{
     padding: 0% 5%;
     color: rgb(221, 242, 252);
 }
+/* .tooltips{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.tooltiptext{
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+}
+.tooltips .tooltiptext {
+    visibility: hidden;
+    background-color: rgb(0, 28, 85);
+    border-radius: 4px;
+    padding: 3px; 
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 75%;
+  }
+  .tooltips:hover .tooltiptext {
+    visibility: visible;
+  } */
 .web-title{
     padding-left: 20px;
     margin: 0%;
