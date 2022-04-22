@@ -140,9 +140,9 @@ ul{
     text-align: center;
     margin:12% 25% 0 25%;
 }
-.main-heading:hover{
+/* .main-heading:hover{
     transform: scale(1.01);
-}
+} */
 .navigation-bar{
     margin : 0 5%;
     position: fixed;

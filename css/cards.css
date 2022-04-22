@@ -30,12 +30,12 @@ color: rgb(0, 28, 85);
     text-decoration: none;
     color: rgb(0, 28, 85);
 }
-.middle-heading:hover{
+/* .middle-heading:hover{
     display: inline-block;
     transform: scale(1.05);
     text-decoration: none;
     color: rgb(0, 28, 85);
-}
+} */
 .abhi-cards a{
     text-decoration: none !important;
 }
